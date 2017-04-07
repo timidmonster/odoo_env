@@ -1,0 +1,63 @@
+<openerp>
+    <data>
+        <template id="content">
+           <div id="wrap" class="oe_structure oe_empty o_editable o_dirty note-air-editor note-editable" data-oe-id="329" data-oe-model="ir.ui.view" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]" data-note-id="1" contenteditable="true">
+            <section class="s_title">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <address class="mb0" itemscope="itemscope" itemtype="http://schema.org/Organization">
+                            <div>
+                                <span itemprop="name">My Company</span>
+                            </div>
+                            <div><i class="fa fa-envelope"></i> <span itemprop="email">info@yourcompany.com</span></div>
+                            </address>
+                        </div>
+                        <div class="col-md-8">
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>번호</td>
+                                    <td>제목</td>
+                                    <td>내용</td>
+                                    <td>글쓴이</td>
+                                    <td>조회수</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>제목4</td>
+                                    <td>놀러와</td>
+                                    <td>이헌철</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>제목3</td>
+                                    <td>우리모두</td>
+                                    <td>아이유</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>제목2</td>
+                                    <td>통일은</td>
+                                    <td>지디</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>제목1</td>
+                                    <td>여러분들</td>
+                                    <td>유재석</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </template>
+    </data>
+</openerp>

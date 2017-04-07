@@ -1,0 +1,34 @@
+<openerp>
+    <data>
+        <!-- <template id="listing"> -->
+        <!--   <ul> -->
+        <!--     <li t-foreach="objects" t-as="object"> -->
+        <!--       <a t-attf-href="#{ root }/objects/#{ object.id }"> -->
+        <!--         <t t-esc="object.display_name"/> -->
+        <!--       </a> -->
+        <!--     </li> -->
+        <!--   </ul> -->
+        <!-- </template> -->
+        <!-- <template id="object"> -->
+        <!--   <h1><t t-esc="object.display_name"/></h1> -->
+        <!--   <dl> -->
+        <!--     <t t-foreach="object._fields" t-as="field"> -->
+        <!--       <dt><t t-esc="field"/></dt> -->
+        <!--       <dd><t t-esc="object[field]"/></dd> -->
+        <!--     </t> -->
+        <!--   </dl> -->
+        <!-- </template> -->
+        <template id="idx">
+            <t t-call="website.layout">
+                <t t-set="title">s_call</t>
+                <div class="oe_structure">
+                    <div class="container">
+                        <t t-foreach="number" t-as="no">
+                            <p><t t-esc="no.id"/> <t t-esc="no.name"/></p>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>

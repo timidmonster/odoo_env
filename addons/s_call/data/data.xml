@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="faq_call" model="faq">
+            <field name="id">www.openerp.com</field>
+            <field name="title"ref="base.main_company"/>
+            <field name="content" eval="[(6, 0, [ ref('base.lang_en')])]"/>
+            <field name="writer" ref="base.lang_en"/>
+            <field name="write_date" ref="base.public_user"/>
+            <field name="read_no" ref="base.public_user"/>
+        </record>
+    </data>
+</openerp>
